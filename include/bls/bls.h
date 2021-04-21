@@ -6,7 +6,9 @@
 	@license modified new BSD license
 	http://opensource.org/licenses/BSD-3-Clause
 */
+#ifndef MCLBN_NO_AUTOLINK
 #define MCLBN_NO_AUTOLINK
+#endif
 #include <mcl/bn.h>
 
 #ifdef BLS_ETH
