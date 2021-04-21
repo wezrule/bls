@@ -1,3 +1,6 @@
 [submodule "mcl"]
 	path = mcl
 	url = https://github.com/herumi/mcl
+[submodule "cybozulib_ext"]
+	path = cybozulib_ext
+	url = https://github.com/herumi/cybozulib_ext
