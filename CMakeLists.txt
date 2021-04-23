@@ -46,6 +46,10 @@ else()
 	set(CMAKE_CXX_FLAGS "${CMAKE_C_FLAGS}")
 endif()
 
+# Needed to put the bls dlls into the same directory as the executable with MSVC
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG "${CMAKE_BINARY_DIR}/bin")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE "${CMAKE_BINARY_DIR}/bin")
+
 add_subdirectory(mcl)
 
 foreach(bit IN ITEMS 256 384 384_256)
